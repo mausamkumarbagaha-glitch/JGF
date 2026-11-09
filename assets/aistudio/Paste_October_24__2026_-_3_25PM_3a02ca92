@@ -1,0 +1,976 @@
+# COMPLETE MASTER PROMPT — JIREH FOODS GLOBAL
+## Premium International B2B Food Sourcing, Wholesale & Export Website
+
+### 1. ROLE AND OBJECTIVE
+
+Act as a senior full-stack developer, premium UI/UX designer, B2B e-commerce specialist, international food-export website consultant, and product catalogue architect.
+
+Build a complete, professional, responsive, multi-page website for **JIREH FOODS GLOBAL**, an India-based food sourcing, packaged food supply, wholesale, and international export business.
+
+I have uploaded a full-page website reference image. Use it as the primary visual reference for the website's layout, design, branding, section order, product imagery, proportions, and overall appearance.
+
+The goal is to reproduce the reference as closely as reasonably possible while building a real, editable, interactive website.
+
+**Do not create only a static picture, screenshot, landing-page mockup, or design description. Build the actual web application with working navigation, product pages, product sliders, search, quotation forms, and reusable components.**
+
+Implement all the sections described below. Do not stop after building the hero section.
+
+---
+
+# 2. OFFICIAL COMPANY IDENTITY
+
+**Company name:** JIREH FOODS GLOBAL
+
+**Brand tagline:** Provision You Can Trust.
+
+**Biblical inspiration:** Genesis 22:14 — Jehovah Jireh, associated with the meaning “The LORD Will Provide.”
+
+**Business origin:** India.
+
+**Business address:** Chandmari Gali, Chandmari, Patna, Bihar, India.
+
+**Contact number:** +91 78589 10926.
+
+**Business email:** Not yet confirmed. Do not invent an email address or display a fictional one. Make the email field configurable and hide it until the actual address is provided.
+
+**Primary business model:**
+- B2B food sourcing
+- Domestic wholesale supply
+- International food exports
+- Packaged food distribution
+- Agricultural product sourcing
+- Private-label food products
+- Custom packaging coordination
+- Bulk orders and quotation requests
+- Online product catalogue
+- Distributor and importer partnerships
+
+**Target customers:**
+- International food importers
+- Food wholesalers
+- Distributors
+- Supermarket chains
+- Grocery retailers
+- Food-service companies
+- Restaurants and hospitality suppliers
+- Private-label brands
+- Food processors
+- Domestic B2B buyers
+- International Indian grocery distributors
+
+The website must present JIREH FOODS GLOBAL as a professional Indian B2B food supply and export brand, not merely a small retail grocery shop.
+
+---
+
+# 3. BRAND IDENTITY AND VISUAL SYSTEM
+
+## Colour palette
+
+Use the following colours consistently:
+
+- Forest green: #073D2B
+- Deep green: #052D22
+- Secondary green: #14583D
+- Premium gold: #E9B93F
+- White: #FFFFFF
+- Off-white: #F7F7F3
+- Main text: #14231C
+- Secondary text: #647067
+- Borders: #E3E8E2
+
+Use forest green for the header, benefits strip, major sections, and footer. Use gold for primary buttons, important icons, dividers, and premium details. Use white and off-white for clean backgrounds.
+
+Avoid excessive gradients, neon colours, random colour combinations, and overly decorative layouts.
+
+## Logo design
+
+Create a premium, simple, professional logo concept for JIREH FOODS GLOBAL.
+
+Visual concept:
+- Globe symbol
+- Wheat or grain
+- Subtle agricultural leaf
+- Forest green and gold
+- Elegant typography
+- Strong international corporate appearance
+
+Display the exact company name:
+
+JIREH FOODS GLOBAL
+
+Use the tagline:
+
+PROVISION YOU CAN TRUST.
+
+Use the same logo and branding in the header, footer, product catalogue, packaging mockups, and other website sections.
+
+If an AI-generated image contains misspelled brand text, do not rely on that text. Overlay the correct brand name using actual HTML, SVG, or CSS where appropriate.
+
+---
+
+# 4. TECHNICAL REQUIREMENTS
+
+Build the website using the supported Google AI Studio application environment.
+
+Preferred stack:
+- React
+- TypeScript
+- Vite
+- Tailwind CSS or clean custom CSS
+- React Router or equivalent routing
+- Lucide icons or consistent SVG icons
+
+Use:
+- Reusable React components
+- Structured product data
+- Maintainable folder organisation
+- Shared design tokens
+- Responsive layouts
+- Proper error and loading states
+- Accessible form controls
+- Clean, readable source code
+
+Suggested components:
+- AnnouncementBar
+- Header
+- DesktopNavigation
+- MobileNavigation
+- ProductDropdown
+- SearchBar
+- HeroCarousel
+- BenefitsStrip
+- FeaturedProductCard
+- ProductCategoryCard
+- ProductGrid
+- ProductDetail
+- QuoteForm
+- DistributorForm
+- ExportServiceCard
+- QualitySection
+- ProcessTimeline
+- ContactSection
+- Footer
+
+Create a central data structure for product names, descriptions, categories, images, packaging, and other product information. Avoid duplicating the same data throughout multiple components.
+
+Inspect the existing project before changing files. Preserve working functionality and build upon the existing project rather than unnecessarily replacing it.
+
+Do not expose API keys, passwords, or secret credentials in frontend code.
+
+---
+
+# 5. WEBSITE PAGES AND ROUTES
+
+Create these pages:
+
+1. Home — `/`
+2. About Us — `/about`
+3. All Products — `/products`
+4. Makhana — `/products/makhana`
+5. Sattu & Gram Products — `/products/sattu-gram`
+6. Indian Spices & Masalas — `/products/spices`
+7. Traditional Snacks — `/products/snacks`
+8. Grains & Agricultural Products — `/products/grains`
+9. Pickles & Condiments — `/products/pickles`
+10. Individual Product Details — `/products/:slug`
+11. B2B & Wholesale — `/b2b-wholesale`
+12. Export Services — `/export-services`
+13. Quality Assurance — `/quality`
+14. Private Label & Packaging — `/private-label`
+15. Become a Distributor — `/become-a-distributor`
+16. Request a Quote — `/request-a-quote`
+17. Contact Us — `/contact`
+18. Privacy Policy — `/privacy-policy`
+19. Terms & Conditions — `/terms`
+
+If a separate route would be redundant, use a clear reusable template, but every navigation item must lead to meaningful content.
+
+---
+
+# 6. HOMEPAGE MUST OPEN WITH THE EXACT REFERENCE DESIGN
+
+This is a critical requirement.
+
+When a visitor opens the website, the first screen must show the main JIREH FOODS GLOBAL landing design based on the uploaded reference image.
+
+The order must be:
+
+1. Top information bar
+2. Main navigation
+3. Large hero banner
+4. Benefits strip
+5. Featured products
+6. Product categories
+7. About section
+8. Detailed product range
+9. B2B wholesale
+10. Export services
+11. Quality assurance and private label
+12. Distributor partnerships
+13. Sourcing and export process
+14. Request a Quote section
+15. Footer
+
+Do not start with a product grid, welcome screen, unrelated banner, or introductory popup.
+
+The page must scroll naturally from the first screen through the remaining sections.
+
+Use the uploaded image as a visual guide, but build the website from editable components and real images rather than placing the whole screenshot as one background image.
+
+---
+
+# 7. TOP INFORMATION BAR
+
+Create a slim, dark-green bar at the top.
+
+Left side:
+- Location icon
+- “Based in India”
+- Vertical divider
+- “Supplying to Global Markets”
+
+Right side:
+- Telephone icon and +91 78589 10926
+- WhatsApp icon and contact link
+- Gold “Request a Quote” button
+
+Address and phone information must be consistent throughout the website.
+
+On smaller screens, simplify the bar so it does not overflow.
+
+Do not show a fictional email address. Display an email field only when the actual email is configured.
+
+---
+
+# 8. NAVIGATION HEADER
+
+Create a premium white header.
+
+Left:
+- JIREH FOODS GLOBAL logo
+- Optional small tagline
+
+Navigation:
+- Home
+- About Us
+- Products
+- B2B & Wholesale
+- Export Services
+- Quality
+- Contact
+
+Add:
+- Product dropdown menu
+- Search icon
+- Request a Quote button
+
+The product dropdown must show all six main categories.
+
+The header may remain sticky while scrolling, provided it does not obstruct content.
+
+On mobile, provide a working hamburger menu with readable navigation items and touch-friendly buttons.
+
+Every link must navigate to a valid route or meaningful page section.
+
+---
+
+# 9. LARGE HERO BANNER AND AUTOMATIC PRODUCT SLIDER
+
+Create a premium, full-width hero banner that closely matches the reference image.
+
+The hero should combine:
+- Indian agricultural fields
+- Green landscapes
+- International cargo containers
+- Port cranes and cargo vessels
+- Optional aircraft or freight imagery
+- Realistic packaged Indian food products
+- Premium food pouches and jars
+- JIREH FOODS GLOBAL branding
+
+Use a balanced composition with readable text on the left and product/export imagery across the centre and right.
+
+Hero eyebrow:
+
+INDIAN FOODS • GLOBAL MARKETS
+
+Main headline:
+
+**Your Trusted Partner for Indian Food Exports.**
+
+Supporting text:
+
+“Connecting global buyers with quality Indian packaged foods and agricultural products through dependable sourcing, professional service and customised bulk supply.”
+
+Primary button:
+
+REQUEST A BULK QUOTE
+
+Secondary button:
+
+DOWNLOAD PRODUCT CATALOGUE
+
+The primary button must open the quotation page or form.
+
+The catalogue button must open a working catalogue page or download an actual generated catalogue file. Do not create a broken download link.
+
+## Automatic carousel requirements
+
+Implement a functional carousel within the hero.
+
+- Change slides automatically every five seconds.
+- Use smooth, professional transitions.
+- Include previous and next arrows.
+- Include pagination dots.
+- Pause automatic movement on hover.
+- Support mobile swiping.
+- Support keyboard controls.
+- Respect reduced-motion accessibility settings.
+- Ensure product titles, descriptions, images, and subcategories always match the active slide.
+
+Create six slides.
+
+### Slide 1 — Makhana
+
+Title: Premium Indian Makhana
+
+Description: Indian fox nuts for wholesale distribution, retail supply, and international food markets.
+
+Subcategories:
+- Raw Makhana
+- Roasted Makhana
+- Salted Makhana
+- Flavoured Makhana
+- Bulk Makhana
+- Private-Label Packs
+
+### Slide 2 — Sattu & Gram
+
+Title: Traditional Sattu & Gram Products
+
+Description: Roasted gram products for Indian food retailers, wholesalers, and bulk buyers.
+
+Subcategories:
+- Sattu Flour
+- Roasted Gram Flour
+- Roasted Chana
+- Instant Sattu Mix
+- Custom Packaging
+
+### Slide 3 — Spices & Masalas
+
+Title: Authentic Indian Spices
+
+Description: Indian spices and regional seasoning blends for wholesale and distribution.
+
+Subcategories:
+- Turmeric Powder
+- Chilli Powder
+- Coriander Powder
+- Cumin
+- Whole Spices
+- Regional Masala Blends
+
+### Slide 4 — Traditional Snacks
+
+Title: Traditional Indian Snacks
+
+Description: Regional snacks and packaged foods for domestic and international business opportunities.
+
+Subcategories:
+- Thekua
+- Traditional Biscuits
+- Roasted Snacks
+- Regional Snack Assortments
+
+### Slide 5 — Grains & Agricultural Products
+
+Title: Indian Agricultural Products
+
+Description: Selected Indian grains and agricultural products for business supply.
+
+Subcategories:
+- Rice
+- Pulses
+- Selected Grains
+- Other Available Agricultural Products
+
+### Slide 6 — Pickles & Condiments
+
+Title: Indian Pickles & Condiments
+
+Description: Traditional Indian flavours for food distributors and international retailers.
+
+Subcategories:
+- Mango Pickle
+- Lemon Pickle
+- Chilli Pickle
+- Garlic Chutney
+- Regional Condiments
+
+Each slide must have:
+- Unique realistic imagery
+- Product title
+- Description
+- Subcategory list
+- Request a Bulk Quote button
+- Explore Products button
+
+The Explore Products button must open the correct category page. The quote button must carry the selected category into the quote form.
+
+---
+
+# 10. BENEFITS STRIP
+
+Immediately below the hero banner, add a dark-green strip with gold icons.
+
+Include five items:
+
+**Wide Range of Products**
+Makhana, Sattu, Spices, Snacks and More.
+
+**Global Supply**
+Supporting Importers, Distributors and Retailers.
+
+**Custom Packaging**
+Bulk, Private Label and OEM Options.
+
+**Quality You Can Trust**
+Careful Sourcing and Quality Coordination.
+
+**Long-term Partnerships**
+Reliable Communication and Business Support.
+
+Use small, elegant icons and subtle dividers. Make the strip responsive.
+
+---
+
+# 11. FEATURED PRODUCTS
+
+Section heading:
+
+OUR BEST SELLING PRODUCTS
+
+Create six cards:
+1. Raw Makhana
+2. Roasted Makhana
+3. Sattu Flour
+4. Turmeric Powder
+5. Thekua
+6. Mixed Pickle
+
+Each card must show:
+- Unique product image
+- Product name
+- Short description
+- View Details button
+
+Add a View All Products link.
+
+Use premium photography and consistent image dimensions.
+
+These are initial catalogue examples, not confirmation of stock or sales performance.
+
+---
+
+# 12. PRODUCT CATEGORIES
+
+Heading:
+
+AUTHENTIC INDIAN FOODS FOR GLOBAL MARKETS
+
+Create six category cards.
+
+### Makhana (Fox Nuts)
+Raw, roasted, salted, flavoured, bulk, and private-label options.
+
+### Sattu & Gram Products
+Sattu flour, roasted gram flour, roasted chana, and instant mixes.
+
+### Indian Spices & Masalas
+Turmeric, chilli, coriander, cumin, whole spices, and regional blends.
+
+### Traditional Snacks
+Thekua, traditional biscuits, roasted snacks, and regional assortments.
+
+### Grains & Agricultural Products
+Rice, pulses, selected grains, and other available agricultural products.
+
+### Pickles & Condiments
+Mango pickle, lemon pickle, chilli pickle, garlic chutney, and regional condiments.
+
+Every category must have:
+- Unique relevant photography
+- Category name
+- Short description
+- Explore Products link
+
+Every link must open the correct category page.
+
+---
+
+# 13. ABOUT JIREH FOODS GLOBAL
+
+Heading:
+
+“Our Mission is to Share the Richness of Indian Foods with the World.”
+
+Include:
+- Company introduction
+- Mission
+- Vision
+- Indian sourcing focus
+- Domestic B2B supply
+- International export ambitions
+- Commitment to responsible sourcing
+- Professional customer communication
+
+Use a high-quality agricultural landscape image and supporting value cards.
+
+Add a Know More About Us button.
+
+Use biblical inspiration respectfully and professionally. Explain the brand meaning without making religious claims about products or implying religious certification.
+
+Do not invent the company's founding date, export experience, supplier network, international offices, or completed transactions.
+
+---
+
+# 14. DETAILED PRODUCT CATALOGUE
+
+Create a complete catalogue page with filters and category navigation.
+
+Each product record should support:
+- Product ID
+- Name
+- Slug
+- Category
+- Subcategory
+- Short description
+- Full description
+- Image gallery
+- Ingredients and allergens, where applicable
+- Available packaging
+- Available pack sizes
+- Minimum order quantity, once established
+- Storage instructions, where applicable
+- Specification documents, if available
+- Quote button
+
+Build reusable product-detail pages.
+
+Do not show unverified prices, stock levels, certifications, minimum order quantities, or guaranteed delivery times.
+
+Use a central product data file so the catalogue can be updated easily.
+
+---
+
+# 15. B2B & WHOLESALE PAGE
+
+Page heading:
+
+BULK SUPPLY FOR GLOBAL BUSINESSES
+
+Explain the company's intended B2B services:
+- Bulk food sourcing
+- Wholesale supply
+- Domestic distribution
+- International buyer inquiries
+- Private-label packaging
+- Custom packaging coordination
+- Product specification requests
+- Quotation support
+- Distributor relationships
+
+Include customer cards for:
+- Importers
+- Distributors
+- Retail Chains
+- Food Industry
+- Private-Label Businesses
+
+Use realistic images of packaged food cartons, pallets, pouches, and bulk products.
+
+Add a Request a Bulk Quote button.
+
+Explain the inquiry process and the information buyers should provide.
+
+---
+
+# 16. EXPORT SERVICES PAGE
+
+Heading:
+
+FROM INDIA TO GLOBAL MARKETS
+
+Include:
+- Product sourcing coordination
+- Packaging and labelling coordination
+- Export documentation coordination
+- Shipment planning
+- Logistics coordination
+- Bulk order communication
+- International buyer support
+
+Use realistic container ports, freight, warehouse, and export packaging images.
+
+Add a Discuss Your Requirements button.
+
+Do not claim confirmed international shipping arrangements, completed exports, or operational export services without evidence.
+
+---
+
+# 17. QUALITY ASSURANCE AND PRIVATE LABEL
+
+Heading:
+
+YOUR BRAND, OUR EXPERTISE
+
+Present intended capabilities in:
+- Product sourcing
+- Supplier documentation coordination
+- Inspection and testing coordination
+- Product traceability, where available
+- Custom packaging discussions
+- Private-label concepts
+- Packaging formats
+- Product specification documentation
+
+Use professional inspection and packaging imagery.
+
+Add an Explore Private Label Options button.
+
+Never invent quality certificates, laboratory reports, customer endorsements, or regulatory approvals.
+
+---
+
+# 18. DISTRIBUTOR PARTNERSHIPS
+
+Create a full-width dark-green section with a subtle global map or distribution visual.
+
+Heading:
+
+PARTNER WITH JIREH FOODS GLOBAL
+
+Supporting message:
+
+“Explore opportunities to source Indian packaged foods for your wholesale, distribution, retail, or private-label business.”
+
+Show:
+- Multiple product categories
+- Sourcing support
+- Packaging discussions
+- Quotation assistance
+- Long-term partnership opportunities
+
+Add a Become a Distributor button that opens the distributor inquiry form.
+
+---
+
+# 19. SOURCING AND EXPORT PROCESS
+
+Heading:
+
+FROM FARM TO GLOBAL MARKETS
+
+Create six visual steps:
+
+1. Sourcing — identifying suitable products and suppliers.
+2. Quality Coordination — arranging relevant checks and documentation.
+3. Processing — coordinating appropriate processing requirements.
+4. Packaging — discussing suitable packaging options.
+5. Logistics — coordinating shipment requirements.
+6. Buyer Support — supporting communication and delivery planning.
+
+Use icons, concise descriptions, and relevant photography.
+
+Show a horizontal timeline on desktop and vertical timeline on mobile.
+
+Describe this as an intended workflow rather than claiming every stage is performed in-house.
+
+---
+
+# 20. REQUEST A QUOTE PAGE AND FORM
+
+Heading:
+
+GET IN TOUCH WITH US
+
+Create a professional B2B quotation form.
+
+Required fields:
+- Company Name
+- Contact Person
+- Business Email
+- Country
+- Product Category
+- Product Required
+- Estimated Quantity
+- Packaging Preference
+- Destination Port or Delivery Location
+- Additional Requirements
+
+Optional fields:
+- Telephone
+- WhatsApp
+- Target Delivery Period
+- Private-Label Requirements
+
+Implement:
+- Form validation
+- Required-field indicators
+- Clear error messages
+- Loading state
+- Success state
+- Error state
+- Privacy notice
+- Responsive form layout
+
+When a buyer clicks Request a Quote from a product page, preselect the relevant product or category.
+
+The form must submit to a configured backend or email/API integration.
+
+If no backend is configured, clearly label the form as demo mode and provide instructions to connect a real service. Do not pretend a quote was submitted if no submission occurred.
+
+---
+
+# 21. OFFICIAL CONTACT DETAILS
+
+Use these exact details everywhere.
+
+**Company Name:** JIREH FOODS GLOBAL
+
+**Address:** Chandmari Gali, Chandmari, Patna, Bihar, India
+
+**Phone:** +91 78589 10926
+
+## Functional contact links
+
+Implement a telephone link using:
+
+tel:+917858910926
+
+Implement a WhatsApp link using:
+
+https://wa.me/917858910926
+
+Use a prefilled WhatsApp message:
+
+“Hello JIREH FOODS GLOBAL, I would like to enquire about your food products and bulk supply.”
+
+Display a Contact Us button in the navigation and footer.
+
+Use the provided address on the Contact page with a location icon.
+
+If you implement a map, use the supplied address as the search query. Do not invent coordinates.
+
+The business email has not been confirmed. Do not display info@jirehfoodsglobal.com or another guessed email as a real contact address. Make the email configurable and hide the email element until a real address is provided.
+
+Do not invent additional telephone numbers, office addresses, social media accounts, or business hours.
+
+---
+
+# 22. CONTACT PAGE
+
+Create a dedicated Contact page with:
+- Company name and introduction
+- Confirmed business address
+- Confirmed contact number
+- Functional click-to-call button
+- Functional WhatsApp button
+- B2B inquiry form
+- Export inquiry option
+- Distributor inquiry option
+- Business hours field, if later confirmed
+- Map section, if properly configured
+
+Use consistent branding and clear spacing.
+
+---
+
+# 23. FOOTER
+
+Create a complete footer with:
+- JIREH FOODS GLOBAL logo
+- Tagline: Provision You Can Trust.
+- Company introduction
+- Quick Links
+- Product Categories
+- B2B & Wholesale
+- Export Services
+- Quality Assurance
+- Contact address
+- Confirmed phone number
+- WhatsApp contact
+- Privacy Policy
+- Terms & Conditions
+- Newsletter subscription, if functional
+- Copyright notice
+
+Use a dark-green background with gold accents and white text.
+
+Every footer link must work.
+
+Do not display a fake email address or fictional social media links.
+
+---
+
+# 24. PRODUCT IMAGE AND PACKAGING REQUIREMENTS
+
+Use distinct, high-quality, realistic product photography throughout the website.
+
+Create or source suitable visuals for:
+- Raw makhana
+- Roasted makhana
+- Sattu flour
+- Roasted chana
+- Turmeric
+- Indian spices
+- Thekua
+- Rice and grains
+- Pickles
+- Bulk food cartons
+- Private-label pouches
+- Export packaging
+- Warehouses
+- Shipping containers
+- Agricultural landscapes
+
+Use the JIREH FOODS GLOBAL name on product packaging mockups wherever practical.
+
+Packaging should look like genuine commercial packaging, with realistic textures, professional lighting, clean composition, and a consistent green, white, and gold design.
+
+Do not reuse the same image for unrelated products.
+
+If generated images have incorrect text, use the image as a photographic background and overlay the correct brand text using actual website components.
+
+Do not invent product ingredients, nutrition values, certifications, or origin claims.
+
+---
+
+# 25. SEARCH, FILTERING, AND PRODUCT NAVIGATION
+
+Implement a functional search system that searches:
+- Product name
+- Category
+- Subcategory
+- Product description
+
+Add filters for product category and relevant product attributes where data exists.
+
+Include:
+- Working navigation menus
+- Category dropdown
+- Product detail links
+- Breadcrumbs
+- Search results
+- Empty-state message
+- Return-to-category links
+
+Every button and link must perform its advertised action.
+
+---
+
+# 26. SEO AND PERFORMANCE
+
+Implement:
+- Semantic HTML
+- Page-specific titles
+- Meta descriptions
+- Clean URLs
+- Descriptive image alt text
+- Appropriate structured data when supported by accurate information
+- Lazy loading for below-the-fold images
+- Responsive image sizes
+- Optimised asset delivery
+- Accessible colour contrast
+- Keyboard navigation
+- Visible focus indicators
+- Reduced-motion support
+- Form spam protection
+- Clear error and loading states
+
+Do not expose private API keys in client-side code.
+
+---
+
+# 27. RESPONSIVE DESIGN
+
+Desktop:
+- Full navigation
+- Wide hero banner
+- Six-column or responsive product grids
+- Horizontal benefits strip
+- Multi-column footer
+
+Tablet:
+- Adapted hero image composition
+- Reduced navigation spacing
+- Two- or three-column product layouts
+
+Mobile:
+- Compact announcement bar
+- Hamburger navigation
+- Stacked hero layout
+- Swipeable carousel
+- One- or two-column product cards
+- Single-column forms
+- Vertical process timeline
+- Touch-friendly buttons
+- No horizontal overflow
+
+The website must remain readable and professional on every screen size.
+
+---
+
+# 28. SECURITY AND REAL FUNCTIONALITY
+
+Build the frontend and available backend integrations carefully.
+
+Do not:
+- Expose API keys
+- Invent live inventory
+- Claim an email was sent when it was not
+- Claim an inquiry was submitted without a successful response
+- Display fake certifications
+- Fabricate customer testimonials
+- Invent export statistics
+- Create broken buttons or links
+
+If an external service requires credentials, create the integration structure and clearly document the configuration required.
+
+---
+
+# 29. TESTING AND FINAL DELIVERY
+
+After implementing the website:
+
+1. Run the project in the available environment.
+2. Fix compilation and runtime errors.
+3. Verify that the homepage opens with the correct hero design.
+4. Confirm that the carousel automatically changes slides.
+5. Verify that product images and text match each slide.
+6. Test every navigation item.
+7. Test category and subcategory links.
+8. Test product detail pages.
+9. Test search and filtering.
+10. Test quote form validation and submission behaviour.
+11. Verify the telephone and WhatsApp links.
+12. Check the official address and contact number everywhere.
+13. Test mobile, tablet, and desktop layouts.
+14. Check image loading and console errors.
+15. Verify that the page scrolls naturally through every section.
+16. Correct spacing, typography, and image proportions to match the reference.
+
+Do not stop after generating a basic homepage. Complete every section described in this prompt.
+
+If the environment cannot complete a backend integration, document the missing configuration honestly while finishing the available frontend and functionality.
+
+---
+
+# FINAL OBJECTIVE
+
+Deliver a complete, polished, responsive, multi-page B2B food export website for JIREH FOODS GLOBAL.
+
+The website must closely follow the uploaded visual reference, use the exact company name and consistent branded imagery, show the confirmed Patna address and phone number, and help connect Indian food products with importers, wholesalers, distributors, retailers, and private-label buyers worldwide.
+
+Build the complete application now, using the available project environment, and verify the result before declaring it complete.
